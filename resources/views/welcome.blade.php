@@ -21,5 +21,8 @@
     </head>
     <body class="container mx-auto p-4">
         <h1 class="text-red-500">Welcome</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugit illum labore optio obcaecati quia necessitatibus ut perferendis minus nemo inventore repudiandae dolorum unde, eaque aliquid est eveniet eius magni!
+        </p>
     </body>
 </html>
