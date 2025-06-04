@@ -9,5 +9,13 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
+        
     ],
+    build: {
+        manifest: true,
+        outDir: 'public/build',
+        rollupOptions: {
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+        },
+    },
 });
